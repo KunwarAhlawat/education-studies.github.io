@@ -1,0 +1,43 @@
+.cta {
+	padding-top: 62px;
+	background: #F8F8F8;
+}
+.cta .cta-inner{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+.cta .text-content {
+	background: transparent;
+	z-index: 333;
+	position: relative;
+	border-radius: 5px;
+}
+.cta .text-content h2 {
+	font-size: 35px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.cta .text-content h2 span {
+	font-weight: 500;
+	font-style: italic;
+	border-bottom: 2px solid;
+}
+.cta .text-content p{
+	color:#eee;
+}
+.cta .button {
+	margin-top: 20px;
+}
+.cta .button .btn {
+	margin-right: 15px;
+}
+.cta .button .btn:last-child{
+	margin:0;
+}
+.cta .cta-image {
+	position: absolute;
+	right: 0;
+	top: -152px;
+}
